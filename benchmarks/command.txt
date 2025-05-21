@@ -1,0 +1,1 @@
+bash run.sh | rg --multiline '(?s)Running (?P<prog>\w+) in (?P<style>[a-z\-]+) (with (?P<opt>O1))?(?P<res>.*?)\nTime taken (?P<secs>\d+\.\d+) seconds (?P<mili>\d+\.\d+) milliseconds' -r '-- took  seconds and  milliseconds'
