@@ -1,0 +1,92 @@
+DIGEST 8d3a19932bb65ef786f90752d2c30069
+FCertiCoq.Benchmarks.tests
+R15:19 Coq.Arith.Arith <> <> lib
+R21:24 Coq.Lists.List <> <> lib
+R26:31 Coq.Strings.String <> <> lib
+R49:74 CertiCoq.Benchmarks.lib.vs <> <> lib
+R92:120 CertiCoq.Benchmarks.lib.Binom <> <> lib
+R138:166 CertiCoq.Benchmarks.lib.Color <> <> lib
+R184:213 CertiCoq.Benchmarks.lib.sha256 <> <> lib
+R231:259 CertiCoq.Benchmarks.lib.coind <> <> lib
+R296:305 MetaCoq.Utils.bytestring <> <> lib
+R307:314 MetaCoq.Utils.MCString <> <> lib
+R353:360 CertiCoq.Plugin.CertiCoq <> <> lib
+def 375:377 <> foo
+R409:421 Coq.Lists.List ListNotations <> mod
+R431:438 CertiCoq.Benchmarks.lib.vs VeriStar <> mod
+def 485:489 <> demo1
+R494:501 Coq.Lists.List <> app abbrev
+R527:537 Coq.Lists.List <> repeat def
+R539:543 Coq.Init.Datatypes <> false constr
+R504:514 Coq.Lists.List <> repeat def
+R516:519 Coq.Init.Datatypes <> true constr
+def 575:581 <> repeat2
+binder 584:584 <> A:1
+R601:601 CertiCoq.Benchmarks.tests <> A:1 var
+binder 595:595 <> x:2
+binder 597:597 <> y:3
+R609:611 Coq.Init.Datatypes <> nat ind
+binder 605:605 <> n:4
+R625:625 CertiCoq.Benchmarks.tests <> n:4 var
+R641:642 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R648:648 Coq.Init.Datatypes <> S constr
+R656:659 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R655:655 CertiCoq.Benchmarks.tests <> x:2 var
+R661:664 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R660:660 CertiCoq.Benchmarks.tests <> y:3 var
+R665:671 CertiCoq.Benchmarks.tests <> repeat2:5 def
+R677:677 CertiCoq.Benchmarks.tests <> n:4 var
+R675:675 CertiCoq.Benchmarks.tests <> y:3 var
+R673:673 CertiCoq.Benchmarks.tests <> x:2 var
+def 698:702 <> demo2
+R707:714 Coq.Lists.List <> map def
+R722:728 CertiCoq.Benchmarks.tests <> repeat2 def
+R735:739 Coq.Init.Datatypes <> false constr
+R730:733 Coq.Init.Datatypes <> true constr
+R716:719 Coq.Init.Datatypes <> negb def
+def 773:777 <> demo3
+R782:785 Coq.Init.Datatypes <> andb def
+def 816:823 <> list_sum
+R828:841 Coq.Lists.List <> fold_left def
+R849:859 Coq.Lists.List <> repeat def
+R843:846 Coq.Init.Peano <> plus abbrev
+def 899:905 <> vs_easy
+R927:929 Coq.Init.Datatypes <> nat ind
+binder 923:923 <> n:7
+R939:953 CertiCoq.Benchmarks.lib.vs VeriStar veristar_result ind
+binder 933:935 <> res:8
+R970:970 CertiCoq.Benchmarks.tests <> n:7 var
+R1002:1004 CertiCoq.Benchmarks.tests <> res:8 var
+R1020:1024 CertiCoq.Benchmarks.lib.vs VeriStar Valid constr
+R1029:1032 Coq.Init.Datatypes <> true constr
+R1048:1052 Coq.Init.Datatypes <> false constr
+R1072:1072 Coq.Init.Datatypes <> S constr
+R1097:1112 CertiCoq.Benchmarks.lib.vs VeriStar check_entailment def
+R1114:1124 CertiCoq.Benchmarks.lib.vs <> example_ent def
+binder 1090:1092 <> res:12
+R1136:1139 CertiCoq.Benchmarks.tests <> loop:9 var
+R1143:1145 CertiCoq.Benchmarks.tests <> res:12 var
+R1141:1141 CertiCoq.Benchmarks.tests <> n:7 var
+R1162:1166 CertiCoq.Benchmarks.lib.vs VeriStar Valid constr
+def 1181:1187 <> vs_hard
+R1200:1208 CertiCoq.Benchmarks.lib.vs <> main_h def
+R1219:1223 CertiCoq.Benchmarks.lib.vs VeriStar Valid constr
+R1228:1231 Coq.Init.Datatypes <> true constr
+R1242:1246 Coq.Init.Datatypes <> false constr
+def 1280:1284 <> binom
+R1289:1298 CertiCoq.Benchmarks.lib.Binom <> main def
+def 1325:1329 <> color
+R1334:1343 CertiCoq.Benchmarks.lib.Color <> main def
+def 1405:1418 <> lazy_factorial
+R1423:1433 MetaCoq.Utils.MCString <> string_of_Z def
+R1436:1446 CertiCoq.Benchmarks.lib.coind <> lfact def
+def 1504:1507 <> test
+def 2153:2155 <> sha
+R2160:2173 CertiCoq.Benchmarks.lib.sha256 <> SHA_256 def
+R2176:2194 CertiCoq.Benchmarks.lib.sha256 <> str_to_bytes def
+R2196:2199 CertiCoq.Benchmarks.tests <> test def
+def 2215:2222 <> sha_fast
+R2227:2241 CertiCoq.Benchmarks.lib.sha256 <> SHA_256' def
+R2244:2262 CertiCoq.Benchmarks.lib.sha256 <> str_to_bytes def
+R2264:2267 CertiCoq.Benchmarks.tests <> test def
+R5091:5096 Coq.ZArith.ZArith <> <> lib

@@ -1,8 +1,0 @@
-- WasC
-- CertiCoq slack to fix makefile and package dependencies. 
-- Compiling Wasm to Riscv. 
-- Send to Eske. 
-- Fixing graphs and send them. 
-- Look into Dockerfile reproducible 
-- Make a Github repo with my stuff
-- eskehoy@gmail.com

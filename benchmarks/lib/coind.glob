@@ -1,0 +1,61 @@
+DIGEST d47c937e220176e4678eafeaf5a16e3c
+FCertiCoq.Benchmarks.lib.coind
+R24:30 Coq.Lists.Streams <> <> lib
+R32:41 Coq.Lists.StreamMemo <> <> lib
+R59:64 Coq.ZArith.ZArith <> <> lib
+def 97:101 <> tfact
+R107:109 Coq.Init.Datatypes <> nat ind
+binder 104:104 <> n:1
+R123:123 CertiCoq.Benchmarks.lib.coind <> n:1 var
+R135:135 Coq.Init.Datatypes <> O constr
+R147:147 Coq.Init.Datatypes <> S constr
+R165:167 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R155:162 Coq.ZArith.BinInt Z of_nat def
+R164:164 CertiCoq.Benchmarks.lib.coind <> n:1 var
+R168:172 CertiCoq.Benchmarks.lib.coind <> tfact:2 def
+def 196:205 <> lfact_list
+R212:222 Coq.Lists.StreamMemo <> dimemo_list def
+binder 237:237 <> n:4
+binder 239:239 <> z:5
+R260:262 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R245:252 Coq.ZArith.BinInt Z of_nat def
+R255:255 Coq.Init.Datatypes <> S constr
+R258:258 CertiCoq.Benchmarks.lib.coind <> n:4 var
+R263:263 CertiCoq.Benchmarks.lib.coind <> z:5 var
+R226:230 CertiCoq.Benchmarks.lib.coind <> tfact def
+def 280:284 <> lfact
+binder 286:286 <> n:6
+R291:299 Coq.Lists.StreamMemo <> dmemo_get def
+R309:309 CertiCoq.Benchmarks.lib.coind <> n:6 var
+R311:320 CertiCoq.Benchmarks.lib.coind <> lfact_list def
+R303:307 CertiCoq.Benchmarks.lib.coind <> tfact def
+prf 332:344 <> lfact_correct
+binder 346:346 <> n:7
+R356:358 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R349:353 CertiCoq.Benchmarks.lib.coind <> lfact def
+R355:355 CertiCoq.Benchmarks.lib.coind <> n:7 var
+R359:363 CertiCoq.Benchmarks.lib.coind <> tfact def
+R365:365 CertiCoq.Benchmarks.lib.coind <> n:7 var
+R384:388 CertiCoq.Benchmarks.lib.coind <> lfact def
+R391:400 CertiCoq.Benchmarks.lib.coind <> lfact_list def
+R413:430 Coq.Lists.StreamMemo <> dimemo_get_correct thm
+R413:430 Coq.Lists.StreamMemo <> dimemo_get_correct thm
+R413:430 Coq.Lists.StreamMemo <> dimemo_get_correct thm
+R413:430 Coq.Lists.StreamMemo <> dimemo_get_correct thm
+def 456:469 <> lazy_factorial
+R474:478 CertiCoq.Benchmarks.lib.coind <> lfact def
+R503:516 CertiCoq.Benchmarks.lib.coind <> lazy_factorial def
+def 531:534 <> from
+R541:543 Coq.Init.Datatypes <> nat ind
+binder 537:537 <> x:8
+R548:553 Coq.Lists.Streams <> Stream coind
+R555:557 Coq.Init.Datatypes <> nat ind
+R562:565 Coq.Lists.Streams <> Cons constr
+R570:573 CertiCoq.Benchmarks.lib.coind <> from:9 def
+R576:576 Coq.Init.Datatypes <> S constr
+R579:579 Coq.Init.Datatypes <> S constr
+R581:581 CertiCoq.Benchmarks.lib.coind <> x:8 var
+R567:567 CertiCoq.Benchmarks.lib.coind <> x:8 var
+def 599:606 <> get_from
+R611:617 Coq.Lists.Streams <> Str_nth def
+R623:626 CertiCoq.Benchmarks.lib.coind <> from def

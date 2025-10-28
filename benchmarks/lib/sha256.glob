@@ -1,0 +1,1025 @@
+DIGEST 469636a81ccae04bcc6805115c49b2b1
+FCertiCoq.Benchmarks.lib.sha256
+R190:195 Coq.funind.Recdef <> <> lib
+R213:233 compcert.lib.Integers <> <> lib
+R251:269 compcert.lib.Coqlib <> <> lib
+R287:304 Coq.Strings.String <> <> lib
+R322:338 Coq.Strings.Ascii <> <> lib
+R356:372 Coq.micromega.Lia <> <> lib
+R390:393 Coq.Lists.List <> <> lib
+R405:417 Coq.Lists.List ListNotations <> mod
+def 536:547 <> str_to_bytes
+R556:561 Coq.Strings.String <> string ind
+binder 550:552 <> str:1
+R566:569 Coq.Init.Datatypes <> list ind
+R571:574 compcert.lib.Integers <> byte abbrev
+R587:589 CertiCoq.Benchmarks.lib.sha256 <> str:1 var
+R601:611 Coq.Strings.String <> EmptyString constr
+R616:618 Coq.Init.Datatypes <> nil constr
+R625:630 Coq.Strings.String <> String constr
+R672:675 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R639:647 compcert.lib.Integers Byte repr def
+R650:655 Coq.ZArith.BinInt Z of_N def
+R658:667 Coq.Strings.Ascii <> N_of_ascii def
+R676:687 CertiCoq.Benchmarks.lib.sha256 <> str_to_bytes:2 def
+def 756:758 <> Shr
+binder 760:760 <> b:4
+binder 762:762 <> x:5
+R767:774 compcert.lib.Integers Int shru def
+R776:776 CertiCoq.Benchmarks.lib.sha256 <> x:5 var
+R779:786 compcert.lib.Integers Int repr def
+R788:788 CertiCoq.Benchmarks.lib.sha256 <> b:4 var
+prf 800:811 <> byte_testbit
+binder 823:823 <> i:6
+binder 825:825 <> j:7
+R834:837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R829:832 Coq.ZArith.BinInt <> ::Z_scope:x_'>='_x not
+R828:828 CertiCoq.Benchmarks.lib.sha256 <> j:7 var
+R867:869 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R838:846 Coq.ZArith.BinInt Z testbit def
+R849:861 compcert.lib.Integers Byte unsigned def
+R863:863 CertiCoq.Benchmarks.lib.sha256 <> i:6 var
+R866:866 CertiCoq.Benchmarks.lib.sha256 <> j:7 var
+R870:874 Coq.Init.Datatypes <> false constr
+R899:913 compcert.lib.Integers Byte bits_above thm
+R899:913 compcert.lib.Integers Byte bits_above thm
+def 945:963 <> intlist_to_bytelist
+R969:972 Coq.Init.Datatypes <> list ind
+R974:976 compcert.lib.Integers <> int abbrev
+binder 966:966 <> l:8
+R981:984 Coq.Init.Datatypes <> list ind
+R986:989 compcert.lib.Integers <> byte abbrev
+R1001:1001 CertiCoq.Benchmarks.lib.sha256 <> l:8 var
+R1011:1013 Coq.Init.Datatypes <> nil constr
+R1018:1020 Coq.Init.Datatypes <> nil constr
+R1026:1027 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1073:1081 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1038:1046 compcert.lib.Integers Byte repr def
+R1049:1060 compcert.lib.Integers Int unsigned def
+R1063:1065 CertiCoq.Benchmarks.lib.sha256 <> Shr def
+R1117:1125 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1082:1090 compcert.lib.Integers Byte repr def
+R1093:1104 compcert.lib.Integers Int unsigned def
+R1107:1109 CertiCoq.Benchmarks.lib.sha256 <> Shr def
+R1160:1168 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1126:1134 compcert.lib.Integers Byte repr def
+R1137:1148 compcert.lib.Integers Int unsigned def
+R1151:1153 CertiCoq.Benchmarks.lib.sha256 <> Shr def
+R1195:1203 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1169:1177 compcert.lib.Integers Byte repr def
+R1180:1191 compcert.lib.Integers Int unsigned def
+R1204:1222 CertiCoq.Benchmarks.lib.sha256 <> intlist_to_bytelist:9 def
+def 1245:1256 <> bytes_to_Int
+R1269:1272 compcert.lib.Integers <> byte abbrev
+binder 1259:1259 <> a:11
+binder 1261:1261 <> b:12
+binder 1263:1263 <> c:13
+binder 1265:1265 <> d:14
+R1277:1283 compcert.lib.Integers Int int rec
+R1290:1295 compcert.lib.Integers Int or def
+R1298:1303 compcert.lib.Integers Int or def
+R1306:1311 compcert.lib.Integers Int or def
+R1322:1328 compcert.lib.Integers Int shl def
+R1331:1338 compcert.lib.Integers Int repr def
+R1341:1353 compcert.lib.Integers Byte unsigned def
+R1355:1355 CertiCoq.Benchmarks.lib.sha256 <> a:11 var
+R1360:1367 compcert.lib.Integers Int repr def
+R1381:1387 compcert.lib.Integers Int shl def
+R1390:1397 compcert.lib.Integers Int repr def
+R1400:1412 compcert.lib.Integers Byte unsigned def
+R1414:1414 CertiCoq.Benchmarks.lib.sha256 <> b:12 var
+R1419:1426 compcert.lib.Integers Int repr def
+R1442:1448 compcert.lib.Integers Int shl def
+R1451:1458 compcert.lib.Integers Int repr def
+R1461:1473 compcert.lib.Integers Byte unsigned def
+R1475:1475 CertiCoq.Benchmarks.lib.sha256 <> c:13 var
+R1480:1487 compcert.lib.Integers Int repr def
+R1504:1511 compcert.lib.Integers Int repr def
+R1514:1526 compcert.lib.Integers Byte unsigned def
+R1528:1528 CertiCoq.Benchmarks.lib.sha256 <> d:14 var
+def 1543:1561 <> bytelist_to_intlist
+R1568:1571 Coq.Init.Datatypes <> list ind
+R1573:1576 compcert.lib.Integers <> byte abbrev
+binder 1564:1565 <> nl:15
+R1581:1584 Coq.Init.Datatypes <> list ind
+R1586:1588 compcert.lib.Integers <> int abbrev
+R1601:1602 CertiCoq.Benchmarks.lib.sha256 <> nl:15 var
+R1615:1616 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1619:1620 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1623:1624 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1627:1628 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1658:1661 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1634:1645 CertiCoq.Benchmarks.lib.sha256 <> bytes_to_Int def
+R1662:1680 CertiCoq.Benchmarks.lib.sha256 <> bytelist_to_intlist:16 def
+R1693:1695 Coq.Init.Datatypes <> nil constr
+def 1715:1718 <> map2
+binder 1721:1721 <> A:18
+binder 1723:1723 <> B:19
+binder 1725:1725 <> C:20
+R1739:1742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1738:1738 CertiCoq.Benchmarks.lib.sha256 <> A:18 var
+R1744:1747 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1743:1743 CertiCoq.Benchmarks.lib.sha256 <> B:19 var
+R1748:1748 CertiCoq.Benchmarks.lib.sha256 <> C:20 var
+binder 1735:1735 <> f:21
+R1756:1759 Coq.Init.Datatypes <> list ind
+R1761:1761 CertiCoq.Benchmarks.lib.sha256 <> A:18 var
+binder 1752:1753 <> al:22
+R1769:1772 Coq.Init.Datatypes <> list ind
+R1774:1774 CertiCoq.Benchmarks.lib.sha256 <> B:19 var
+binder 1765:1766 <> bl:23
+R1779:1782 Coq.Init.Datatypes <> list ind
+R1784:1784 CertiCoq.Benchmarks.lib.sha256 <> C:20 var
+R1800:1801 CertiCoq.Benchmarks.lib.sha256 <> bl:23 var
+R1796:1797 CertiCoq.Benchmarks.lib.sha256 <> al:22 var
+R1813:1814 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1821:1822 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1835:1838 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1830:1830 CertiCoq.Benchmarks.lib.sha256 <> f:21 var
+R1839:1842 CertiCoq.Benchmarks.lib.sha256 <> map2:24 def
+R1844:1844 CertiCoq.Benchmarks.lib.sha256 <> f:21 var
+R1866:1868 Coq.Init.Datatypes <> nil constr
+def 1939:1954 <> generate_and_pad
+binder 1956:1958 <> msg:27
+R1974:1980 Coq.ZArith.Zcomplements <> Zlength def
+R1982:1984 CertiCoq.Benchmarks.lib.sha256 <> msg:27 var
+binder 1969:1969 <> n:28
+R2109:2123 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1992:2010 CertiCoq.Benchmarks.lib.sha256 <> bytelist_to_intlist def
+R2016:2019 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2013:2015 CertiCoq.Benchmarks.lib.sha256 <> msg:27 var
+R2037:2056 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2020:2020 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2036:2036 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2021:2029 compcert.lib.Integers Byte repr def
+R2057:2067 Coq.Lists.List <> repeat def
+R2081:2088 Coq.ZArith.BinInt Z to_nat def
+R2099:2103 Coq.ZArith.BinInt <> ::Z_scope:x_'mod'_x not
+R2091:2092 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2098:2098 Coq.ZArith.BinInt <> ::Z_scope:'-'_x not
+R2094:2096 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R2093:2093 CertiCoq.Benchmarks.lib.sha256 <> n:28 var
+R2069:2077 compcert.lib.Integers Byte zero def
+R2124:2124 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2155:2156 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2173:2173 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2125:2132 compcert.lib.Integers Int repr def
+R2140:2142 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R2136:2138 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2135:2135 CertiCoq.Benchmarks.lib.sha256 <> n:28 var
+R2143:2153 compcert.lib.Integers Int modulus def
+R2157:2164 compcert.lib.Integers Int repr def
+R2168:2170 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R2167:2167 CertiCoq.Benchmarks.lib.sha256 <> n:28 var
+def 2324:2327 <> K256
+R2332:2334 Coq.Lists.List <> map def
+R2347:2347 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2358:2360 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2371:2372 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2383:2384 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2395:2399 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2409:2413 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2424:2425 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2436:2437 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2448:2452 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2463:2464 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2474:2477 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2487:2490 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2501:2505 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2516:2517 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2528:2529 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2540:2541 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2552:2556 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2567:2568 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2579:2580 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2590:2593 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2603:2607 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2617:2620 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2631:2632 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2643:2644 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2655:2659 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2670:2671 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2682:2683 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2694:2695 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2706:2710 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2721:2722 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2733:2734 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2744:2747 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2757:2761 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2771:2774 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2784:2787 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2798:2799 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2810:2814 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2825:2826 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2837:2838 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2849:2850 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2861:2865 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2876:2877 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2888:2889 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2900:2901 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2912:2916 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2927:2928 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2939:2940 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2951:2952 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2962:2966 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2976:2979 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2989:2992 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3002:3005 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3015:3019 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3029:3032 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3043:3044 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3055:3056 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3067:3071 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3082:3083 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3094:3095 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3106:3107 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3118:3122 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3133:3134 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3145:3146 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3157:3158 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R3169:3169 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R2336:2343 compcert.lib.Integers Int repr def
+def 3222:3223 <> Ch
+R3234:3236 compcert.lib.Integers <> int abbrev
+binder 3226:3226 <> x:29
+binder 3228:3228 <> y:30
+binder 3230:3230 <> z:31
+R3241:3243 compcert.lib.Integers <> int abbrev
+R3250:3256 compcert.lib.Integers Int xor def
+R3259:3265 compcert.lib.Integers Int and def
+R3267:3267 CertiCoq.Benchmarks.lib.sha256 <> x:29 var
+R3269:3269 CertiCoq.Benchmarks.lib.sha256 <> y:30 var
+R3273:3279 compcert.lib.Integers Int and def
+R3282:3288 compcert.lib.Integers Int not def
+R3290:3290 CertiCoq.Benchmarks.lib.sha256 <> x:29 var
+R3293:3293 CertiCoq.Benchmarks.lib.sha256 <> z:31 var
+def 3309:3311 <> Maj
+R3322:3324 compcert.lib.Integers <> int abbrev
+binder 3314:3314 <> x:32
+binder 3316:3316 <> y:33
+binder 3318:3318 <> z:34
+R3329:3331 compcert.lib.Integers <> int abbrev
+R3338:3344 compcert.lib.Integers Int xor def
+R3347:3353 compcert.lib.Integers Int xor def
+R3356:3362 compcert.lib.Integers Int and def
+R3364:3364 CertiCoq.Benchmarks.lib.sha256 <> x:32 var
+R3366:3366 CertiCoq.Benchmarks.lib.sha256 <> z:34 var
+R3370:3376 compcert.lib.Integers Int and def
+R3378:3378 CertiCoq.Benchmarks.lib.sha256 <> y:33 var
+R3380:3380 CertiCoq.Benchmarks.lib.sha256 <> z:34 var
+R3386:3392 compcert.lib.Integers Int and def
+R3394:3394 CertiCoq.Benchmarks.lib.sha256 <> x:32 var
+R3396:3396 CertiCoq.Benchmarks.lib.sha256 <> y:33 var
+def 3412:3415 <> Rotr
+binder 3417:3417 <> b:35
+binder 3419:3419 <> x:36
+R3424:3430 compcert.lib.Integers Int ror def
+R3432:3432 CertiCoq.Benchmarks.lib.sha256 <> x:36 var
+R3435:3442 compcert.lib.Integers Int repr def
+R3444:3444 CertiCoq.Benchmarks.lib.sha256 <> b:35 var
+def 3460:3466 <> Sigma_0
+R3473:3475 compcert.lib.Integers <> int abbrev
+binder 3469:3469 <> x:37
+R3480:3482 compcert.lib.Integers <> int abbrev
+R3497:3503 compcert.lib.Integers Int xor def
+R3506:3512 compcert.lib.Integers Int xor def
+R3515:3518 CertiCoq.Benchmarks.lib.sha256 <> Rotr def
+R3522:3522 CertiCoq.Benchmarks.lib.sha256 <> x:37 var
+R3526:3529 CertiCoq.Benchmarks.lib.sha256 <> Rotr def
+R3534:3534 CertiCoq.Benchmarks.lib.sha256 <> x:37 var
+R3539:3542 CertiCoq.Benchmarks.lib.sha256 <> Rotr def
+R3547:3547 CertiCoq.Benchmarks.lib.sha256 <> x:37 var
+def 3562:3568 <> Sigma_1
+R3575:3577 compcert.lib.Integers <> int abbrev
+binder 3571:3571 <> x:38
+R3582:3584 compcert.lib.Integers <> int abbrev
+R3599:3605 compcert.lib.Integers Int xor def
+R3608:3614 compcert.lib.Integers Int xor def
+R3617:3620 CertiCoq.Benchmarks.lib.sha256 <> Rotr def
+R3624:3624 CertiCoq.Benchmarks.lib.sha256 <> x:38 var
+R3628:3631 CertiCoq.Benchmarks.lib.sha256 <> Rotr def
+R3636:3636 CertiCoq.Benchmarks.lib.sha256 <> x:38 var
+R3641:3644 CertiCoq.Benchmarks.lib.sha256 <> Rotr def
+R3649:3649 CertiCoq.Benchmarks.lib.sha256 <> x:38 var
+def 3664:3670 <> sigma_0
+R3677:3679 compcert.lib.Integers <> int abbrev
+binder 3673:3673 <> x:39
+R3684:3686 compcert.lib.Integers <> int abbrev
+R3701:3707 compcert.lib.Integers Int xor def
+R3710:3716 compcert.lib.Integers Int xor def
+R3719:3722 CertiCoq.Benchmarks.lib.sha256 <> Rotr def
+R3726:3726 CertiCoq.Benchmarks.lib.sha256 <> x:39 var
+R3730:3733 CertiCoq.Benchmarks.lib.sha256 <> Rotr def
+R3738:3738 CertiCoq.Benchmarks.lib.sha256 <> x:39 var
+R3743:3745 CertiCoq.Benchmarks.lib.sha256 <> Shr def
+R3749:3749 CertiCoq.Benchmarks.lib.sha256 <> x:39 var
+def 3764:3770 <> sigma_1
+R3777:3779 compcert.lib.Integers <> int abbrev
+binder 3773:3773 <> x:40
+R3784:3786 compcert.lib.Integers <> int abbrev
+R3801:3807 compcert.lib.Integers Int xor def
+R3810:3816 compcert.lib.Integers Int xor def
+R3819:3822 CertiCoq.Benchmarks.lib.sha256 <> Rotr def
+R3827:3827 CertiCoq.Benchmarks.lib.sha256 <> x:40 var
+R3831:3834 CertiCoq.Benchmarks.lib.sha256 <> Rotr def
+R3839:3839 CertiCoq.Benchmarks.lib.sha256 <> x:40 var
+R3844:3846 CertiCoq.Benchmarks.lib.sha256 <> Shr def
+R3851:3851 CertiCoq.Benchmarks.lib.sha256 <> x:40 var
+R3892:3895 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3891:3891 Coq.Numbers.BinNums <> Z ind
+R3896:3898 compcert.lib.Integers <> int abbrev
+binder 3888:3888 <> M:41
+R3905:3905 Coq.Numbers.BinNums <> Z ind
+binder 3902:3902 <> t:42
+R3931:3933 compcert.lib.Integers <> int abbrev
+R3943:3945 compcert.lib.Coqlib <> zlt def
+R3947:3947 CertiCoq.Benchmarks.lib.sha256 <> t:42 var
+R3972:3978 compcert.lib.Integers Int add def
+R3981:3987 compcert.lib.Integers Int add def
+R3990:3996 CertiCoq.Benchmarks.lib.sha256 <> sigma_1 def
+R3999:3999 CertiCoq.Benchmarks.lib.sha256 <> W:43 def
+R4005:4005 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4004:4004 CertiCoq.Benchmarks.lib.sha256 <> t:42 var
+R4001:4001 CertiCoq.Benchmarks.lib.sha256 <> M:41 var
+R4012:4012 CertiCoq.Benchmarks.lib.sha256 <> W:43 def
+R4018:4018 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4017:4017 CertiCoq.Benchmarks.lib.sha256 <> t:42 var
+R4014:4014 CertiCoq.Benchmarks.lib.sha256 <> M:41 var
+R4040:4046 compcert.lib.Integers Int add def
+R4049:4055 CertiCoq.Benchmarks.lib.sha256 <> sigma_0 def
+R4058:4058 CertiCoq.Benchmarks.lib.sha256 <> W:43 def
+R4064:4064 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4063:4063 CertiCoq.Benchmarks.lib.sha256 <> t:42 var
+R4060:4060 CertiCoq.Benchmarks.lib.sha256 <> M:41 var
+R4072:4072 CertiCoq.Benchmarks.lib.sha256 <> W:43 def
+R4078:4078 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4077:4077 CertiCoq.Benchmarks.lib.sha256 <> t:42 var
+R4074:4074 CertiCoq.Benchmarks.lib.sha256 <> M:41 var
+R3959:3959 CertiCoq.Benchmarks.lib.sha256 <> M:41 var
+R3961:3961 CertiCoq.Benchmarks.lib.sha256 <> t:42 var
+binder 3888:3888 <> M:44
+binder 3902:3902 <> t:45
+binder 3888:3888 <> M:46
+binder 3902:3902 <> t:47
+binder 3888:3888 <> M:49
+binder 3902:3902 <> t:50
+R3943:3945 compcert.lib.Coqlib <> zlt def
+R3947:3947 CertiCoq.Benchmarks.lib.sha256 <> t:50 var
+R3972:3978 compcert.lib.Integers Int add def
+R3981:3987 compcert.lib.Integers Int add def
+R3990:3996 CertiCoq.Benchmarks.lib.sha256 <> sigma_1 def
+R3999:3999 CertiCoq.Benchmarks.lib.sha256 <> W:48 def
+R4005:4005 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4004:4004 CertiCoq.Benchmarks.lib.sha256 <> t:50 var
+R4001:4001 CertiCoq.Benchmarks.lib.sha256 <> M:49 var
+R4012:4012 CertiCoq.Benchmarks.lib.sha256 <> W:48 def
+R4018:4018 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4017:4017 CertiCoq.Benchmarks.lib.sha256 <> t:50 var
+R4014:4014 CertiCoq.Benchmarks.lib.sha256 <> M:49 var
+R4040:4046 compcert.lib.Integers Int add def
+R4049:4055 CertiCoq.Benchmarks.lib.sha256 <> sigma_0 def
+R4058:4058 CertiCoq.Benchmarks.lib.sha256 <> W:48 def
+R4064:4064 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4063:4063 CertiCoq.Benchmarks.lib.sha256 <> t:50 var
+R4060:4060 CertiCoq.Benchmarks.lib.sha256 <> M:49 var
+R4072:4072 CertiCoq.Benchmarks.lib.sha256 <> W:48 def
+R4078:4078 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4077:4077 CertiCoq.Benchmarks.lib.sha256 <> t:50 var
+R4074:4074 CertiCoq.Benchmarks.lib.sha256 <> M:49 var
+R3959:3959 CertiCoq.Benchmarks.lib.sha256 <> M:49 var
+R3961:3961 CertiCoq.Benchmarks.lib.sha256 <> t:50 var
+binder 3888:3888 <> M:51
+binder 3902:3902 <> t:52
+binder 3888:3888 <> M:53
+binder 3902:3902 <> t:54
+R3943:3945 compcert.lib.Coqlib <> zlt def
+R3947:3947 CertiCoq.Benchmarks.lib.sha256 <> t:54 var
+R3972:3978 compcert.lib.Integers Int add def
+R3981:3987 compcert.lib.Integers Int add def
+R3990:3996 CertiCoq.Benchmarks.lib.sha256 <> sigma_1 def
+R3999:3999 CertiCoq.Benchmarks.lib.sha256 <> W:48 def
+R4005:4005 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4004:4004 CertiCoq.Benchmarks.lib.sha256 <> t:54 var
+R4001:4001 CertiCoq.Benchmarks.lib.sha256 <> M:53 var
+R4012:4012 CertiCoq.Benchmarks.lib.sha256 <> W:48 def
+R4018:4018 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4017:4017 CertiCoq.Benchmarks.lib.sha256 <> t:54 var
+R4014:4014 CertiCoq.Benchmarks.lib.sha256 <> M:53 var
+R4040:4046 compcert.lib.Integers Int add def
+R4049:4055 CertiCoq.Benchmarks.lib.sha256 <> sigma_0 def
+R4058:4058 CertiCoq.Benchmarks.lib.sha256 <> W:48 def
+R4064:4064 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4063:4063 CertiCoq.Benchmarks.lib.sha256 <> t:54 var
+R4060:4060 CertiCoq.Benchmarks.lib.sha256 <> M:53 var
+R4072:4072 CertiCoq.Benchmarks.lib.sha256 <> W:48 def
+R4078:4078 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R4077:4077 CertiCoq.Benchmarks.lib.sha256 <> t:54 var
+R4074:4074 CertiCoq.Benchmarks.lib.sha256 <> M:53 var
+R3959:3959 CertiCoq.Benchmarks.lib.sha256 <> M:53 var
+R3961:3961 CertiCoq.Benchmarks.lib.sha256 <> t:54 var
+R3917:3924 Coq.ZArith.BinInt Z to_nat def
+R4108:4119 Coq.ZArith.Znat Z2Nat inj_lt thm
+R4108:4119 Coq.ZArith.Znat Z2Nat inj_lt thm
+R4141:4152 Coq.ZArith.Znat Z2Nat inj_lt thm
+R4141:4152 Coq.ZArith.Znat Z2Nat inj_lt thm
+R4174:4185 Coq.ZArith.Znat Z2Nat inj_lt thm
+R4174:4185 Coq.ZArith.Znat Z2Nat inj_lt thm
+R4207:4218 Coq.ZArith.Znat Z2Nat inj_lt thm
+R4207:4218 Coq.ZArith.Znat Z2Nat inj_lt thm
+def 4307:4315 <> registers
+R4320:4323 Coq.Init.Datatypes <> list ind
+R4325:4327 compcert.lib.Integers <> int abbrev
+def 4487:4500 <> init_registers
+R4504:4512 CertiCoq.Benchmarks.lib.sha256 <> registers def
+R4519:4521 Coq.Lists.List <> map def
+R4533:4533 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4544:4545 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4556:4557 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4568:4569 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4580:4605 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4616:4617 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4628:4629 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4639:4640 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4651:4651 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4523:4530 compcert.lib.Integers Int repr def
+def 4666:4669 <> nthi
+R4676:4679 Coq.Init.Datatypes <> list ind
+R4681:4683 compcert.lib.Integers <> int abbrev
+binder 4672:4673 <> il:70
+R4690:4690 Coq.Numbers.BinNums <> Z ind
+binder 4687:4687 <> t:71
+R4696:4698 Coq.Lists.List <> nth def
+R4716:4723 compcert.lib.Integers Int zero def
+R4713:4714 CertiCoq.Benchmarks.lib.sha256 <> il:70 var
+R4701:4708 Coq.ZArith.BinInt Z to_nat def
+R4710:4710 CertiCoq.Benchmarks.lib.sha256 <> t:71 var
+def 4738:4749 <> rnd_function
+R4756:4764 CertiCoq.Benchmarks.lib.sha256 <> registers def
+binder 4752:4752 <> x:72
+R4772:4774 compcert.lib.Integers <> int abbrev
+binder 4768:4768 <> k:73
+R4782:4784 compcert.lib.Integers <> int abbrev
+binder 4778:4778 <> w:74
+R4789:4797 CertiCoq.Benchmarks.lib.sha256 <> registers def
+R4809:4809 CertiCoq.Benchmarks.lib.sha256 <> x:72 var
+R4821:4821 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4823:4824 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4826:4827 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4829:4830 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4832:4833 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4835:4836 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4838:4839 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4841:4842 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4844:4844 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4864:4870 compcert.lib.Integers Int add def
+R4873:4879 compcert.lib.Integers Int add def
+R4882:4888 compcert.lib.Integers Int add def
+R4891:4897 compcert.lib.Integers Int add def
+R4902:4908 CertiCoq.Benchmarks.lib.sha256 <> Sigma_1 def
+R4915:4916 CertiCoq.Benchmarks.lib.sha256 <> Ch def
+R4926:4926 CertiCoq.Benchmarks.lib.sha256 <> k:73 var
+R4929:4929 CertiCoq.Benchmarks.lib.sha256 <> w:74 var
+binder 4858:4859 <> T1:76
+R4949:4955 compcert.lib.Integers Int add def
+R4958:4964 CertiCoq.Benchmarks.lib.sha256 <> Sigma_0 def
+R4970:4972 CertiCoq.Benchmarks.lib.sha256 <> Maj def
+binder 4943:4944 <> T2:77
+R4991:4991 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R5005:5006 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R5008:5009 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R5011:5012 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R5014:5015 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R5028:5029 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R5031:5032 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R5034:5035 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R5037:5037 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4992:4998 compcert.lib.Integers Int add def
+R5000:5001 CertiCoq.Benchmarks.lib.sha256 <> T1:76 var
+R5003:5004 CertiCoq.Benchmarks.lib.sha256 <> T2:77 var
+R5016:5022 compcert.lib.Integers Int add def
+R5026:5027 CertiCoq.Benchmarks.lib.sha256 <> T1:76 var
+R5048:5050 Coq.Init.Datatypes <> nil constr
+R5101:5109 CertiCoq.Benchmarks.lib.sha256 <> registers def
+binder 5095:5098 <> regs:78
+R5117:5119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5116:5116 Coq.Numbers.BinNums <> Z ind
+R5120:5122 compcert.lib.Integers <> int abbrev
+binder 5113:5113 <> M:79
+R5129:5129 Coq.Numbers.BinNums <> Z ind
+binder 5126:5126 <> t:80
+R5179:5187 CertiCoq.Benchmarks.lib.sha256 <> registers def
+R5196:5198 compcert.lib.Coqlib <> zlt def
+R5200:5200 CertiCoq.Benchmarks.lib.sha256 <> t:80 var
+R5220:5231 CertiCoq.Benchmarks.lib.sha256 <> rnd_function def
+R5234:5238 CertiCoq.Benchmarks.lib.sha256 <> Round:81 def
+R5249:5249 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5248:5248 CertiCoq.Benchmarks.lib.sha256 <> t:80 var
+R5245:5245 CertiCoq.Benchmarks.lib.sha256 <> M:79 var
+R5240:5243 CertiCoq.Benchmarks.lib.sha256 <> regs:78 var
+R5255:5258 CertiCoq.Benchmarks.lib.sha256 <> nthi def
+R5260:5263 CertiCoq.Benchmarks.lib.sha256 <> K256 def
+R5265:5265 CertiCoq.Benchmarks.lib.sha256 <> t:80 var
+R5269:5269 CertiCoq.Benchmarks.lib.sha256 <> W thm
+R5271:5271 CertiCoq.Benchmarks.lib.sha256 <> M:79 var
+R5273:5273 CertiCoq.Benchmarks.lib.sha256 <> t:80 var
+R5209:5212 CertiCoq.Benchmarks.lib.sha256 <> regs:78 var
+binder 5095:5098 <> regs:82
+binder 5113:5113 <> M:83
+binder 5126:5126 <> t:84
+binder 5095:5098 <> regs:85
+binder 5113:5113 <> M:86
+binder 5126:5126 <> t:87
+binder 5095:5098 <> regs:89
+binder 5113:5113 <> M:90
+binder 5126:5126 <> t:91
+R5196:5198 compcert.lib.Coqlib <> zlt def
+R5200:5200 CertiCoq.Benchmarks.lib.sha256 <> t:91 var
+R5220:5231 CertiCoq.Benchmarks.lib.sha256 <> rnd_function def
+R5234:5238 CertiCoq.Benchmarks.lib.sha256 <> Round:88 def
+R5249:5249 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5248:5248 CertiCoq.Benchmarks.lib.sha256 <> t:91 var
+R5245:5245 CertiCoq.Benchmarks.lib.sha256 <> M:90 var
+R5240:5243 CertiCoq.Benchmarks.lib.sha256 <> regs:89 var
+R5255:5258 CertiCoq.Benchmarks.lib.sha256 <> nthi def
+R5260:5263 CertiCoq.Benchmarks.lib.sha256 <> K256 def
+R5265:5265 CertiCoq.Benchmarks.lib.sha256 <> t:91 var
+R5269:5269 CertiCoq.Benchmarks.lib.sha256 <> W thm
+R5271:5271 CertiCoq.Benchmarks.lib.sha256 <> M:90 var
+R5273:5273 CertiCoq.Benchmarks.lib.sha256 <> t:91 var
+R5209:5212 CertiCoq.Benchmarks.lib.sha256 <> regs:89 var
+binder 5095:5098 <> regs:92
+binder 5113:5113 <> M:93
+binder 5126:5126 <> t:94
+binder 5095:5098 <> regs:95
+binder 5113:5113 <> M:96
+binder 5126:5126 <> t:97
+R5196:5198 compcert.lib.Coqlib <> zlt def
+R5200:5200 CertiCoq.Benchmarks.lib.sha256 <> t:97 var
+R5220:5231 CertiCoq.Benchmarks.lib.sha256 <> rnd_function def
+R5234:5238 CertiCoq.Benchmarks.lib.sha256 <> Round:88 def
+R5249:5249 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R5248:5248 CertiCoq.Benchmarks.lib.sha256 <> t:97 var
+R5245:5245 CertiCoq.Benchmarks.lib.sha256 <> M:96 var
+R5240:5243 CertiCoq.Benchmarks.lib.sha256 <> regs:95 var
+R5255:5258 CertiCoq.Benchmarks.lib.sha256 <> nthi def
+R5260:5263 CertiCoq.Benchmarks.lib.sha256 <> K256 def
+R5265:5265 CertiCoq.Benchmarks.lib.sha256 <> t:97 var
+R5269:5269 CertiCoq.Benchmarks.lib.sha256 <> W thm
+R5271:5271 CertiCoq.Benchmarks.lib.sha256 <> M:96 var
+R5273:5273 CertiCoq.Benchmarks.lib.sha256 <> t:97 var
+R5209:5212 CertiCoq.Benchmarks.lib.sha256 <> regs:95 var
+binder 5154:5154 <> t:99
+R5159:5166 Coq.ZArith.BinInt Z to_nat def
+R5169:5169 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R5168:5168 CertiCoq.Benchmarks.lib.sha256 <> t:99 var
+R5298:5309 Coq.ZArith.Znat Z2Nat inj_lt thm
+R5298:5309 Coq.ZArith.Znat Z2Nat inj_lt thm
+def 5334:5343 <> hash_block
+R5349:5357 CertiCoq.Benchmarks.lib.sha256 <> registers def
+binder 5346:5346 <> r:113
+R5368:5371 Coq.Init.Datatypes <> list ind
+R5373:5375 compcert.lib.Integers <> int abbrev
+binder 5361:5365 <> block:114
+R5380:5388 CertiCoq.Benchmarks.lib.sha256 <> registers def
+R5399:5402 CertiCoq.Benchmarks.lib.sha256 <> map2 def
+R5415:5419 CertiCoq.Benchmarks.lib.sha256 <> Round thm
+R5421:5421 CertiCoq.Benchmarks.lib.sha256 <> r:113 var
+R5424:5427 CertiCoq.Benchmarks.lib.sha256 <> nthi def
+R5429:5433 CertiCoq.Benchmarks.lib.sha256 <> block:114 var
+R5412:5412 CertiCoq.Benchmarks.lib.sha256 <> r:113 var
+R5404:5410 compcert.lib.Integers Int add def
+prf 5448:5465 <> skipn_length_short
+binder 5478:5478 <> A:115
+binder 5481:5481 <> n:116
+R5488:5491 Coq.Init.Datatypes <> list ind
+R5493:5493 CertiCoq.Benchmarks.lib.sha256 <> A:115 var
+binder 5484:5485 <> al:117
+R5521:5529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5512:5514 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R5503:5508 Coq.Lists.List <> length abbrev
+R5510:5511 CertiCoq.Benchmarks.lib.sha256 <> al:117 var
+R5515:5515 CertiCoq.Benchmarks.lib.sha256 <> n:116 var
+R5550:5552 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5531:5536 Coq.Lists.List <> length abbrev
+R5539:5543 Coq.Lists.List <> skipn def
+R5547:5548 CertiCoq.Benchmarks.lib.sha256 <> al:117 var
+R5545:5545 CertiCoq.Benchmarks.lib.sha256 <> n:116 var
+prf 5651:5662 <> skipn_length
+binder 5675:5675 <> A:118
+binder 5678:5678 <> n:119
+R5685:5688 Coq.Init.Datatypes <> list ind
+R5690:5690 CertiCoq.Benchmarks.lib.sha256 <> A:118 var
+binder 5681:5682 <> al:120
+R5719:5727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5709:5712 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R5700:5705 Coq.Lists.List <> length abbrev
+R5707:5708 CertiCoq.Benchmarks.lib.sha256 <> al:120 var
+R5713:5713 CertiCoq.Benchmarks.lib.sha256 <> n:119 var
+R5748:5750 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5729:5734 Coq.Lists.List <> length abbrev
+R5737:5741 Coq.Lists.List <> skipn def
+R5745:5746 CertiCoq.Benchmarks.lib.sha256 <> al:120 var
+R5743:5743 CertiCoq.Benchmarks.lib.sha256 <> n:119 var
+R5760:5762 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R5751:5756 Coq.Lists.List <> length abbrev
+R5758:5759 CertiCoq.Benchmarks.lib.sha256 <> al:120 var
+R5763:5763 CertiCoq.Benchmarks.lib.sha256 <> n:119 var
+R5875:5883 CertiCoq.Benchmarks.lib.sha256 <> registers def
+binder 5872:5872 <> r:121
+R5892:5895 Coq.Init.Datatypes <> list ind
+R5897:5899 compcert.lib.Integers <> int abbrev
+binder 5887:5889 <> msg:122
+R5925:5933 CertiCoq.Benchmarks.lib.sha256 <> registers def
+R5946:5948 CertiCoq.Benchmarks.lib.sha256 <> msg:122 var
+R5959:5961 Coq.Init.Datatypes <> nil constr
+R5966:5966 CertiCoq.Benchmarks.lib.sha256 <> r:121 var
+R5977:5987 CertiCoq.Benchmarks.lib.sha256 <> hash_blocks:123 def
+R6021:6025 Coq.Lists.List <> skipn def
+R6030:6032 CertiCoq.Benchmarks.lib.sha256 <> msg:122 var
+R5990:5999 CertiCoq.Benchmarks.lib.sha256 <> hash_block def
+R6001:6001 CertiCoq.Benchmarks.lib.sha256 <> r:121 var
+R6004:6009 Coq.Lists.List <> firstn def
+R6014:6016 CertiCoq.Benchmarks.lib.sha256 <> msg:122 var
+binder 5872:5872 <> r:125
+binder 5887:5889 <> msg:126
+binder 5872:5872 <> r:127
+binder 5887:5889 <> msg:128
+binder 5872:5872 <> r:130
+binder 5887:5889 <> msg:131
+R5946:5948 CertiCoq.Benchmarks.lib.sha256 <> msg:131 var
+R5959:5961 Coq.Init.Datatypes <> nil constr
+R5966:5966 CertiCoq.Benchmarks.lib.sha256 <> r:130 var
+R5977:5987 CertiCoq.Benchmarks.lib.sha256 <> hash_blocks:129 def
+R6021:6025 Coq.Lists.List <> skipn def
+R6030:6032 CertiCoq.Benchmarks.lib.sha256 <> msg:131 var
+R5990:5999 CertiCoq.Benchmarks.lib.sha256 <> hash_block def
+R6001:6001 CertiCoq.Benchmarks.lib.sha256 <> r:130 var
+R6004:6009 Coq.Lists.List <> firstn def
+R6014:6016 CertiCoq.Benchmarks.lib.sha256 <> msg:131 var
+binder 5872:5872 <> r:133
+binder 5887:5889 <> msg:134
+binder 5872:5872 <> r:135
+binder 5887:5889 <> msg:136
+R5946:5948 CertiCoq.Benchmarks.lib.sha256 <> msg:136 var
+R5959:5961 Coq.Init.Datatypes <> nil constr
+R5966:5966 CertiCoq.Benchmarks.lib.sha256 <> r:135 var
+R5977:5987 CertiCoq.Benchmarks.lib.sha256 <> hash_blocks:129 def
+R6021:6025 Coq.Lists.List <> skipn def
+R6030:6032 CertiCoq.Benchmarks.lib.sha256 <> msg:136 var
+R5990:5999 CertiCoq.Benchmarks.lib.sha256 <> hash_block def
+R6001:6001 CertiCoq.Benchmarks.lib.sha256 <> r:135 var
+R6004:6009 Coq.Lists.List <> firstn def
+R6014:6016 CertiCoq.Benchmarks.lib.sha256 <> msg:136 var
+R5911:5916 Coq.Lists.List <> length abbrev
+R6068:6073 Coq.Arith.Compare_dec <> lt_dec thm
+R6076:6081 Coq.Lists.List <> length abbrev
+R6068:6073 Coq.Arith.Compare_dec <> lt_dec thm
+R6076:6081 Coq.Lists.List <> length abbrev
+R6102:6119 CertiCoq.Benchmarks.lib.sha256 <> skipn_length_short thm
+R6102:6119 CertiCoq.Benchmarks.lib.sha256 <> skipn_length_short thm
+R6102:6119 CertiCoq.Benchmarks.lib.sha256 <> skipn_length_short thm
+R6102:6119 CertiCoq.Benchmarks.lib.sha256 <> skipn_length_short thm
+R6190:6201 CertiCoq.Benchmarks.lib.sha256 <> skipn_length thm
+R6190:6201 CertiCoq.Benchmarks.lib.sha256 <> skipn_length thm
+R6190:6201 CertiCoq.Benchmarks.lib.sha256 <> skipn_length thm
+R6190:6201 CertiCoq.Benchmarks.lib.sha256 <> skipn_length thm
+def 6234:6240 <> SHA_256
+R6249:6252 Coq.Init.Datatypes <> list ind
+R6254:6257 compcert.lib.Integers <> byte abbrev
+binder 6243:6245 <> str:152
+R6262:6265 Coq.Init.Datatypes <> list ind
+R6267:6270 compcert.lib.Integers <> byte abbrev
+R6279:6297 CertiCoq.Benchmarks.lib.sha256 <> intlist_to_bytelist def
+R6300:6310 CertiCoq.Benchmarks.lib.sha256 <> hash_blocks thm
+R6312:6325 CertiCoq.Benchmarks.lib.sha256 <> init_registers def
+R6328:6343 CertiCoq.Benchmarks.lib.sha256 <> generate_and_pad def
+R6345:6347 CertiCoq.Benchmarks.lib.sha256 <> str:152 var
+R6368:6370 Coq.micromega.Lia <> <> lib
+R6441:6441 Coq.Numbers.BinNums <> Z ind
+binder 6437:6437 <> n:153
+R6467:6470 Coq.Init.Datatypes <> list ind
+R6472:6478 compcert.lib.Integers Int int rec
+R6487:6491 Coq.ZArith.BinInt Z gtb def
+R6493:6493 CertiCoq.Benchmarks.lib.sha256 <> n:153 var
+R6531:6533 Coq.Init.Datatypes <> nil constr
+R6510:6513 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6502:6509 compcert.lib.Integers Int zero def
+R6514:6518 CertiCoq.Benchmarks.lib.sha256 <> zeros:154 def
+R6522:6522 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6521:6521 CertiCoq.Benchmarks.lib.sha256 <> n:153 var
+binder 6437:6437 <> n:155
+binder 6437:6437 <> n:156
+binder 6437:6437 <> n:158
+R6487:6491 Coq.ZArith.BinInt Z gtb def
+R6493:6493 CertiCoq.Benchmarks.lib.sha256 <> n:158 var
+R6531:6533 Coq.Init.Datatypes <> nil constr
+R6510:6513 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6502:6509 compcert.lib.Integers Int zero def
+R6514:6518 CertiCoq.Benchmarks.lib.sha256 <> zeros:157 def
+R6522:6522 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6521:6521 CertiCoq.Benchmarks.lib.sha256 <> n:158 var
+binder 6437:6437 <> n:159
+binder 6437:6437 <> n:160
+R6487:6491 Coq.ZArith.BinInt Z gtb def
+R6493:6493 CertiCoq.Benchmarks.lib.sha256 <> n:160 var
+R6531:6533 Coq.Init.Datatypes <> nil constr
+R6510:6513 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6502:6509 compcert.lib.Integers Int zero def
+R6514:6518 CertiCoq.Benchmarks.lib.sha256 <> zeros:157 def
+R6522:6522 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6521:6521 CertiCoq.Benchmarks.lib.sha256 <> n:160 var
+R6453:6460 Coq.ZArith.BinInt Z to_nat def
+R6562:6574 Coq.ZArith.Znat Z2Nat inj_sub thm
+R6562:6574 Coq.ZArith.Znat Z2Nat inj_sub thm
+R6562:6574 Coq.ZArith.Znat Z2Nat inj_sub thm
+R6593:6606 Coq.ZArith.Zbool <> Zgt_is_gt_bool thm
+R6593:6606 Coq.ZArith.Zbool <> Zgt_is_gt_bool thm
+R6628:6630 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6628:6630 Coq.ZArith.BinInt <> ::Z_scope:x_'<'_x not
+R6648:6659 Coq.ZArith.Znat Z2Nat inj_lt thm
+R6648:6659 Coq.ZArith.Znat Z2Nat inj_lt thm
+def 6697:6702 <> padlen
+R6708:6708 Coq.Numbers.BinNums <> Z ind
+binder 6705:6705 <> n:169
+R6713:6716 Coq.Init.Datatypes <> list ind
+R6718:6724 compcert.lib.Integers Int int rec
+R6745:6745 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6743:6743 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R6742:6742 CertiCoq.Benchmarks.lib.sha256 <> n:169 var
+binder 6737:6737 <> p:170
+R6915:6917 Coq.ZArith.BinInt <> ::Z_scope:x_'-'_x not
+R6912:6912 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6903:6903 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R6908:6909 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R6905:6905 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R6904:6904 CertiCoq.Benchmarks.lib.sha256 <> p:170 var
+R6918:6918 CertiCoq.Benchmarks.lib.sha256 <> p:170 var
+binder 6898:6898 <> q:171
+R6969:6972 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6962:6966 CertiCoq.Benchmarks.lib.sha256 <> zeros thm
+R6968:6968 CertiCoq.Benchmarks.lib.sha256 <> q:171 var
+R6973:6973 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7004:7005 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7022:7022 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R6974:6981 compcert.lib.Integers Int repr def
+R6989:6991 Coq.ZArith.BinInt <> ::Z_scope:x_'/'_x not
+R6985:6987 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R6984:6984 CertiCoq.Benchmarks.lib.sha256 <> n:169 var
+R6992:7002 compcert.lib.Integers Int modulus def
+R7006:7013 compcert.lib.Integers Int repr def
+R7017:7019 Coq.ZArith.BinInt <> ::Z_scope:x_'*'_x not
+R7016:7016 CertiCoq.Benchmarks.lib.sha256 <> n:169 var
+def 7035:7051 <> generate_and_pad'
+R7057:7060 Coq.Init.Datatypes <> list ind
+R7062:7065 compcert.lib.Integers <> byte abbrev
+binder 7054:7054 <> n:172
+binder 7068:7070 <> len:173
+R7074:7077 Coq.Init.Datatypes <> list ind
+R7079:7085 compcert.lib.Integers Int int rec
+R7098:7098 CertiCoq.Benchmarks.lib.sha256 <> n:172 var
+R7109:7111 Coq.Init.Datatypes <> nil constr
+R7174:7177 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7116:7127 CertiCoq.Benchmarks.lib.sha256 <> bytes_to_Int def
+R7130:7138 compcert.lib.Integers Byte repr def
+R7145:7153 compcert.lib.Integers Byte zero def
+R7155:7163 compcert.lib.Integers Byte zero def
+R7165:7173 compcert.lib.Integers Byte zero def
+R7178:7183 CertiCoq.Benchmarks.lib.sha256 <> padlen def
+R7185:7187 CertiCoq.Benchmarks.lib.sha256 <> len:173 var
+R7193:7193 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7196:7196 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R7251:7254 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7200:7211 CertiCoq.Benchmarks.lib.sha256 <> bytes_to_Int def
+R7217:7225 compcert.lib.Integers Byte repr def
+R7232:7240 compcert.lib.Integers Byte zero def
+R7242:7250 compcert.lib.Integers Byte zero def
+R7255:7260 CertiCoq.Benchmarks.lib.sha256 <> padlen def
+R7266:7266 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7263:7265 CertiCoq.Benchmarks.lib.sha256 <> len:173 var
+R7274:7274 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7277:7278 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7281:7281 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7330:7333 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7286:7297 CertiCoq.Benchmarks.lib.sha256 <> bytes_to_Int def
+R7306:7314 compcert.lib.Integers Byte repr def
+R7321:7329 compcert.lib.Integers Byte zero def
+R7334:7339 CertiCoq.Benchmarks.lib.sha256 <> padlen def
+R7345:7345 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7342:7344 CertiCoq.Benchmarks.lib.sha256 <> len:173 var
+R7353:7353 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7356:7357 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7360:7361 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7364:7364 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R7406:7409 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7369:7380 CertiCoq.Benchmarks.lib.sha256 <> bytes_to_Int def
+R7392:7400 compcert.lib.Integers Byte repr def
+R7410:7415 CertiCoq.Benchmarks.lib.sha256 <> padlen def
+R7421:7421 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7418:7420 CertiCoq.Benchmarks.lib.sha256 <> len:173 var
+R7431:7432 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7435:7436 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7439:7440 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7443:7444 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7474:7477 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7450:7461 CertiCoq.Benchmarks.lib.sha256 <> bytes_to_Int def
+R7478:7494 CertiCoq.Benchmarks.lib.sha256 <> generate_and_pad':174 def
+R7502:7502 Coq.ZArith.BinInt <> ::Z_scope:x_'+'_x not
+R7499:7501 CertiCoq.Benchmarks.lib.sha256 <> len:173 var
+def 7525:7544 <> generate_and_pad_alt
+R7550:7553 Coq.Init.Datatypes <> list ind
+R7555:7558 compcert.lib.Integers <> byte abbrev
+binder 7547:7547 <> n:176
+R7563:7566 Coq.Init.Datatypes <> list ind
+R7568:7574 compcert.lib.Integers Int int rec
+R7582:7598 CertiCoq.Benchmarks.lib.sha256 <> generate_and_pad' def
+R7600:7600 CertiCoq.Benchmarks.lib.sha256 <> n:176 var
+def 7617:7621 <> Wnext
+R7630:7633 Coq.Init.Datatypes <> list ind
+R7635:7637 compcert.lib.Integers <> int abbrev
+binder 7624:7626 <> msg:177
+R7642:7644 compcert.lib.Integers <> int abbrev
+R7656:7658 CertiCoq.Benchmarks.lib.sha256 <> msg:177 var
+R7670:7671 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7674:7675 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7678:7679 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7682:7683 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7686:7687 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7690:7691 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7694:7695 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7698:7699 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7702:7703 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7707:7708 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7712:7713 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7717:7718 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7722:7723 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7727:7728 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7732:7733 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7737:7738 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7748:7754 compcert.lib.Integers Int add def
+R7757:7763 compcert.lib.Integers Int add def
+R7766:7772 CertiCoq.Benchmarks.lib.sha256 <> sigma_1 def
+R7783:7789 compcert.lib.Integers Int add def
+R7792:7798 CertiCoq.Benchmarks.lib.sha256 <> sigma_0 def
+R7819:7826 compcert.lib.Integers Int zero def
+def 7920:7932 <> generate_word
+R7941:7944 Coq.Init.Datatypes <> list ind
+R7946:7948 compcert.lib.Integers <> int abbrev
+binder 7935:7937 <> msg:179
+R7956:7958 Coq.Init.Datatypes <> nat ind
+binder 7952:7952 <> n:180
+R7973:7976 Coq.Init.Datatypes <> list ind
+R7978:7980 compcert.lib.Integers <> int abbrev
+R7993:7993 CertiCoq.Benchmarks.lib.sha256 <> n:180 var
+R8003:8003 Coq.Init.Datatypes <> O constr
+R8010:8012 CertiCoq.Benchmarks.lib.sha256 <> msg:179 var
+R8017:8017 Coq.Init.Datatypes <> S constr
+R8025:8037 CertiCoq.Benchmarks.lib.sha256 <> generate_word:181 def
+R8049:8052 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8040:8044 CertiCoq.Benchmarks.lib.sha256 <> Wnext def
+R8046:8048 CertiCoq.Benchmarks.lib.sha256 <> msg:179 var
+R8053:8055 CertiCoq.Benchmarks.lib.sha256 <> msg:179 var
+R8078:8090 CertiCoq.Benchmarks.lib.sha256 <> generate_word def
+R8127:8139 CertiCoq.Benchmarks.lib.sha256 <> generate_word def
+def 8274:8279 <> rnd_64
+R8285:8293 CertiCoq.Benchmarks.lib.sha256 <> registers def
+binder 8282:8282 <> x:183
+R8303:8306 Coq.Init.Datatypes <> list ind
+R8308:8310 compcert.lib.Integers <> int abbrev
+binder 8297:8297 <> k:184
+binder 8299:8299 <> w:185
+R8315:8323 CertiCoq.Benchmarks.lib.sha256 <> registers def
+R8339:8339 CertiCoq.Benchmarks.lib.sha256 <> w:185 var
+R8336:8336 CertiCoq.Benchmarks.lib.sha256 <> k:184 var
+R8352:8353 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8360:8361 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8368:8373 CertiCoq.Benchmarks.lib.sha256 <> rnd_64:186 def
+R8376:8387 CertiCoq.Benchmarks.lib.sha256 <> rnd_function def
+R8389:8389 CertiCoq.Benchmarks.lib.sha256 <> x:183 var
+R8417:8417 CertiCoq.Benchmarks.lib.sha256 <> x:183 var
+R8436:8441 CertiCoq.Benchmarks.lib.sha256 <> rnd_64 def
+def 8503:8515 <> process_block
+R8521:8529 CertiCoq.Benchmarks.lib.sha256 <> registers def
+binder 8518:8518 <> r:189
+R8540:8543 Coq.Init.Datatypes <> list ind
+R8545:8547 compcert.lib.Integers <> int abbrev
+binder 8533:8537 <> block:190
+R8552:8560 CertiCoq.Benchmarks.lib.sha256 <> registers def
+R8573:8576 CertiCoq.Benchmarks.lib.sha256 <> map2 def
+R8589:8594 CertiCoq.Benchmarks.lib.sha256 <> rnd_64 def
+R8596:8596 CertiCoq.Benchmarks.lib.sha256 <> r:189 var
+R8598:8601 CertiCoq.Benchmarks.lib.sha256 <> K256 def
+R8604:8606 Coq.Lists.List <> rev def
+R8608:8620 CertiCoq.Benchmarks.lib.sha256 <> generate_word def
+R8622:8626 CertiCoq.Benchmarks.lib.sha256 <> block:190 var
+R8586:8586 CertiCoq.Benchmarks.lib.sha256 <> r:189 var
+R8578:8584 compcert.lib.Integers Int add def
+def 8646:8667 <> grab_and_process_block
+R8673:8675 Coq.Init.Datatypes <> nat ind
+binder 8670:8670 <> n:191
+R8682:8690 CertiCoq.Benchmarks.lib.sha256 <> registers def
+binder 8679:8679 <> r:192
+R8708:8711 Coq.Init.Datatypes <> list ind
+R8713:8715 compcert.lib.Integers <> int abbrev
+binder 8694:8701 <> firstrev:193
+binder 8703:8705 <> msg:194
+R8729:8731 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8720:8728 CertiCoq.Benchmarks.lib.sha256 <> registers def
+R8732:8735 Coq.Init.Datatypes <> list ind
+R8737:8739 compcert.lib.Integers <> int abbrev
+R8754:8756 CertiCoq.Benchmarks.lib.sha256 <> msg:194 var
+R8751:8751 CertiCoq.Benchmarks.lib.sha256 <> n:191 var
+R8767:8767 Coq.Init.Datatypes <> O constr
+R8775:8775 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8800:8801 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8805:8805 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8776:8788 CertiCoq.Benchmarks.lib.sha256 <> process_block def
+R8790:8790 CertiCoq.Benchmarks.lib.sha256 <> r:192 var
+R8792:8799 CertiCoq.Benchmarks.lib.sha256 <> firstrev:193 var
+R8802:8804 CertiCoq.Benchmarks.lib.sha256 <> msg:194 var
+R8811:8811 Coq.Init.Datatypes <> S constr
+R8819:8820 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8829:8850 CertiCoq.Benchmarks.lib.sha256 <> grab_and_process_block:195 def
+R8860:8861 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8862:8869 CertiCoq.Benchmarks.lib.sha256 <> firstrev:193 var
+R8855:8855 CertiCoq.Benchmarks.lib.sha256 <> r:192 var
+R8884:8886 Coq.Init.Datatypes <> nil constr
+R8891:8891 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8893:8893 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8897:8897 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8892:8892 CertiCoq.Benchmarks.lib.sha256 <> r:192 var
+R8894:8896 Coq.Init.Datatypes <> nil constr
+R9144:9152 CertiCoq.Benchmarks.lib.sha256 <> registers def
+binder 9141:9141 <> r:198
+R9162:9165 Coq.Init.Datatypes <> list ind
+R9167:9169 compcert.lib.Integers <> int abbrev
+binder 9156:9158 <> msg:199
+R9196:9204 CertiCoq.Benchmarks.lib.sha256 <> registers def
+R9216:9218 CertiCoq.Benchmarks.lib.sha256 <> msg:199 var
+R9228:9230 Coq.Init.Datatypes <> nil constr
+R9235:9235 CertiCoq.Benchmarks.lib.sha256 <> r:198 var
+R9263:9284 CertiCoq.Benchmarks.lib.sha256 <> grab_and_process_block def
+R9289:9289 CertiCoq.Benchmarks.lib.sha256 <> r:198 var
+R9291:9293 Coq.Init.Datatypes <> nil constr
+R9295:9297 CertiCoq.Benchmarks.lib.sha256 <> msg:199 var
+binder 9250:9251 <> r':202
+binder 9254:9257 <> msg':203
+R9315:9325 CertiCoq.Benchmarks.lib.sha256 <> process_msg:200 def
+R9330:9333 CertiCoq.Benchmarks.lib.sha256 <> msg':203 var
+R9327:9328 CertiCoq.Benchmarks.lib.sha256 <> r':202 var
+binder 9141:9141 <> r:204
+binder 9156:9158 <> msg:205
+binder 9141:9141 <> r:206
+binder 9156:9158 <> msg:207
+binder 9141:9141 <> r:209
+binder 9156:9158 <> msg:210
+R9216:9218 CertiCoq.Benchmarks.lib.sha256 <> msg:210 var
+R9228:9230 Coq.Init.Datatypes <> nil constr
+R9235:9235 CertiCoq.Benchmarks.lib.sha256 <> r:209 var
+R9263:9284 CertiCoq.Benchmarks.lib.sha256 <> grab_and_process_block def
+R9289:9289 CertiCoq.Benchmarks.lib.sha256 <> r:209 var
+R9291:9293 Coq.Init.Datatypes <> nil constr
+R9295:9297 CertiCoq.Benchmarks.lib.sha256 <> msg:210 var
+binder 9250:9251 <> r':212
+binder 9254:9257 <> msg':213
+R9315:9325 CertiCoq.Benchmarks.lib.sha256 <> process_msg:208 def
+R9330:9333 CertiCoq.Benchmarks.lib.sha256 <> msg':213 var
+R9327:9328 CertiCoq.Benchmarks.lib.sha256 <> r':212 var
+binder 9141:9141 <> r:214
+binder 9156:9158 <> msg:215
+binder 9141:9141 <> r:216
+binder 9156:9158 <> msg:217
+R9216:9218 CertiCoq.Benchmarks.lib.sha256 <> msg:217 var
+R9228:9230 Coq.Init.Datatypes <> nil constr
+R9235:9235 CertiCoq.Benchmarks.lib.sha256 <> r:216 var
+R9263:9284 CertiCoq.Benchmarks.lib.sha256 <> grab_and_process_block def
+R9289:9289 CertiCoq.Benchmarks.lib.sha256 <> r:216 var
+R9291:9293 Coq.Init.Datatypes <> nil constr
+R9295:9297 CertiCoq.Benchmarks.lib.sha256 <> msg:217 var
+binder 9250:9251 <> r':219
+binder 9254:9257 <> msg':220
+R9315:9325 CertiCoq.Benchmarks.lib.sha256 <> process_msg:208 def
+R9330:9333 CertiCoq.Benchmarks.lib.sha256 <> msg':220 var
+R9327:9328 CertiCoq.Benchmarks.lib.sha256 <> r':219 var
+R9181:9186 Coq.Lists.List <> length abbrev
+R9405:9408 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9384:9399 Coq.Init.Datatypes <> length def
+R9409:9424 Coq.Init.Datatypes <> length def
+R9405:9408 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9384:9399 Coq.Init.Datatypes <> length def
+R9409:9424 Coq.Init.Datatypes <> length def
+R9531:9543 CertiCoq.Benchmarks.lib.sha256 <> process_block def
+R9570:9572 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9567:9568 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R9570:9572 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9567:9568 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+def 9645:9652 <> SHA_256'
+R9661:9664 Coq.Init.Datatypes <> list ind
+R9666:9669 compcert.lib.Integers <> byte abbrev
+binder 9655:9657 <> str:237
+R9674:9677 Coq.Init.Datatypes <> list ind
+R9679:9682 compcert.lib.Integers <> byte abbrev
+R9691:9709 CertiCoq.Benchmarks.lib.sha256 <> intlist_to_bytelist def
+R9712:9722 CertiCoq.Benchmarks.lib.sha256 <> process_msg thm
+R9724:9737 CertiCoq.Benchmarks.lib.sha256 <> init_registers def
+R9740:9759 CertiCoq.Benchmarks.lib.sha256 <> generate_and_pad_alt def
+R9761:9763 CertiCoq.Benchmarks.lib.sha256 <> str:237 var

@@ -18,23 +18,17 @@ def parse_markdown_table(md_table):
         parts = [part.strip() for part in line.split("|")]
         parts = [part for part in parts if part]
 
-        if len(parts) == 6:  # Ensure we have the expected number of columns
-            program, compiler, style, optimization, seconds, milliseconds = parts
+        if len(parts) == 4:  # Ensure we have the expected number of columns
+            program, compiler, optimization, milliseconds = parts
             # Convert time values to numeric
-            seconds = float(seconds)
             milliseconds = float(milliseconds)
-            # Calculate total time in milliseconds for easier comparison
-            total_ms = seconds * 1000
 
             data.append(
                 {
                     "program": program,
                     "compiler": compiler,
-                    "style": style,
                     "optimization": optimization,
-                    "seconds": seconds,
                     "milliseconds": milliseconds,
-                    "total_ms": total_ms,
                 }
             )
 
@@ -84,13 +78,13 @@ def create_charts(df):
 
     # Group by architecture and optimization
     arch_opt_df = (
-        df.groupby(["architecture", "optimization"])["total_ms"].mean().reset_index()
+        df.groupby(["architecture", "optimization"])["milliseconds"].mean().reset_index()
     )
     print(arch_opt_df)
     # Plot
     ax = sns.barplot(
         x="architecture",
-        y="total_ms",
+        y="milliseconds",
         hue="optimization",
         data=arch_opt_df,
         palette="viridis",
@@ -119,7 +113,7 @@ def create_charts(df):
 
         # Group by architecture, compiler, and optimization
         plot_df = (
-            program_df.groupby(["architecture", "compiler", "optimization"])["total_ms"]
+            program_df.groupby(["architecture", "compiler", "optimization"])["milliseconds"]
             .mean()
             .reset_index()
         )
@@ -129,7 +123,7 @@ def create_charts(df):
 
         # Plot
         ax = sns.barplot(
-            x="config", y="total_ms", hue="architecture", data=plot_df, palette="Set2"
+            x="config", y="milliseconds", hue="architecture", data=plot_df, palette="Set2"
         )
 
         plt.title(f"Execution Time for {program} across Architectures and Compilers")
@@ -151,7 +145,7 @@ def create_charts(df):
 
     # Group by architecture, compiler, and optimization
     compiler_df = (
-        df.groupby(["architecture", "compiler", "optimization"])["total_ms"]
+        df.groupby(["architecture", "compiler", "optimization"])["milliseconds"]
         .mean()
         .reset_index()
     )
@@ -160,7 +154,7 @@ def create_charts(df):
     g = sns.catplot(
         data=compiler_df,
         x="compiler",
-        y="total_ms",
+        y="milliseconds",
         hue="optimization",
         col="architecture",
         kind="bar",
@@ -187,52 +181,6 @@ def create_charts(df):
     plt.savefig("avg_time_by_compiler.png")
     plt.close()
 
-    # Chart 4: Style comparison (direct-style vs CPS) for each architecture
-    plt.figure(figsize=(14, 8))
-
-    # Group by architecture, style, and optimization
-    style_df = (
-        df.groupby(["architecture", "style", "optimization"])["total_ms"]
-        .mean()
-        .reset_index()
-    )
-
-    # Plot
-    g = sns.catplot(
-        data=style_df,
-        x="style",
-        y="total_ms",
-        hue="optimization",
-        col="architecture",
-        kind="bar",
-        height=6,
-        aspect=0.8,
-        palette="Set1",
-    )
-
-    g.set_axis_labels("Programming Style", "Average Time (milliseconds)")
-    g.set_titles("{col_name}")
-    g.fig.suptitle(
-        "Average Execution Time by Programming Style and Optimization Level",
-        y=1.05,
-        fontsize=16,
-    )
-
-    # Add value labels
-    for ax in g.axes.flat:
-        for p in ax.patches:
-            ax.annotate(
-                f"{p.get_height():.2f}",
-                (p.get_x() + p.get_width() / 2.0, p.get_height()),
-                ha="center",
-                va="bottom",
-                xytext=(0, 5),
-                textcoords="offset points",
-            )
-
-    plt.tight_layout()
-    plt.savefig("avg_time_by_style.png")
-    plt.close()
 
 
 def main():
